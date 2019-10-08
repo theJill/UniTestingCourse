@@ -1,0 +1,7 @@
+D:\3year\UniTestingCourse\UnitTests\Triangle\Triangle\bin\Debug\Triangle.exe.config
+D:\3year\UniTestingCourse\UnitTests\Triangle\Triangle\bin\Debug\Triangle.exe
+D:\3year\UniTestingCourse\UnitTests\Triangle\Triangle\bin\Debug\Triangle.pdb
+D:\3year\UniTestingCourse\UnitTests\Triangle\Triangle\obj\Debug\Triangle.csprojAssemblyReference.cache
+D:\3year\UniTestingCourse\UnitTests\Triangle\Triangle\obj\Debug\Triangle.csproj.CoreCompileInputs.cache
+D:\3year\UniTestingCourse\UnitTests\Triangle\Triangle\obj\Debug\Triangle.exe
+D:\3year\UniTestingCourse\UnitTests\Triangle\Triangle\obj\Debug\Triangle.pdb
