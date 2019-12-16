@@ -10,7 +10,8 @@ namespace TriangleNameSpace.UnitTests
         [TestMethod]
         public void IsTriangle_TwoSidesSumLessThenThird_false()
         {
-            Assert.AreEqual(false, Triangle.IsTriangle(4, 2, 7));
+            //Assert.AreEqual(false, Triangle.IsTriangle(4, 2, 7));
+            Assert.IsFalse(Triangle.IsTriangle(4, 2, 7));
         }
 
         [TestMethod]

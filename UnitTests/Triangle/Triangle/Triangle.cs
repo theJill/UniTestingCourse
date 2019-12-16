@@ -14,9 +14,7 @@ namespace TriangleNameSpace
             return ((firstSide < secondSide + thirdSide) 
                 && (secondSide < firstSide + thirdSide) 
                 && (thirdSide < firstSide + secondSide)) 
-                &&
-                (firstSide > 0 && secondSide > 0 && thirdSide > 0)
-                ;
+                && (firstSide > 0 && secondSide > 0 && thirdSide > 0);
         }
 
         public static bool IsEqualsided(float firstSide, float secondSide, float thirdSide)
@@ -29,9 +27,9 @@ namespace TriangleNameSpace
         {
             float[] allSides = { firstSide, secondSide, thirdSide };
             return IsTriangle(firstSide, secondSide, thirdSide) 
-                && (Math.Pow(allSides.Distinct().ElementAt(2), 2) ==
-                Math.Pow(allSides.Distinct().ElementAt(1), 2) +
-                Math.Pow(allSides.Distinct().ElementAt(0), 2));
+                && (Math.Pow(allSides.Distinct().ElementAt(2), 2)
+                ==  Math.Pow(allSides.Distinct().ElementAt(1), 2) 
+                +   Math.Pow(allSides.Distinct().ElementAt(0), 2));
         }
     }
 }
