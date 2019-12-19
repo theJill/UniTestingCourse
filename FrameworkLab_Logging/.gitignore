@@ -1,0 +1,8 @@
+*.db
+*.log
+*.csproj
+/target
+/bin
+/ConfigFiles
+/obj
+/Properties
