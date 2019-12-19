@@ -3,6 +3,7 @@
 *.csproj
 *.vs
 *.vs/PageObjectLab
+PageObjectLab.sln
 /PageObjectLab
 /target
 /bin
