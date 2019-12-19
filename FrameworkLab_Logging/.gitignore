@@ -1,0 +1,12 @@
+*.db
+*.log
+*.csproj
+*.vs
+/PageObjectLab
+/target
+/bin
+/ConfigFiles
+/obj
+/Properties
+PageObjectLab.sln
+.vs/PageObjectLab
