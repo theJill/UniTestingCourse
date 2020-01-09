@@ -2,6 +2,9 @@ using NUnit.Framework;
 using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using log4net.Config;
+using System.IO;
+using System.Configuration;
 
 namespace FrameworkLab
 {
@@ -14,7 +17,7 @@ namespace FrameworkLab
 		public void OpenBrowserAndGoToSite()
 		{
 			Logger.InitLogger();
-		}
+        }
 
 		[TearDown]
 		public void StopBrowser()
